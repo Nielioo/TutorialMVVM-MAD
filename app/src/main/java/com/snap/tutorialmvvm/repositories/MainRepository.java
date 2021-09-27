@@ -29,4 +29,10 @@ public class MainRepository {
         return result;
     }
 
+    public MutableLiveData<ArrayList<Mahasiswa>> getMahasiswa(){
+        final MutableLiveData<ArrayList<Mahasiswa>> result = new MutableLiveData<>();
+        result.setValue(listMhs);
+        return result;
+    }
+
 }
