@@ -48,6 +48,6 @@ public class MainViewModel extends AndroidViewModel {
         return resultGetMahasiswa;
     }
 
-    //    end of viewModel AddMahasiswa
+    //    end of viewModel GetMahasiswa
 
 }
